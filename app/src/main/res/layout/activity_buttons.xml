@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="HardcodedText">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Contained"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_star"
+        style="@style/Widget.MaterialComponents.Button"
+        app:iconTint="#C6FF00" />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Outlined"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_star"
+        app:iconTint="#FF0000"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Outlined"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_star"
+        app:iconTint="#000000"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush" />
+
+
+
+
+
+</LinearLayout>
